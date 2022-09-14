@@ -8,13 +8,13 @@
 
 body {
     font-family: 'Varela Round', sans-serif;
-    background-color: #E6EED6;
-    color: #090C02;
+    background-color: #090C02;
+    color: #DDE2C6;
 }
 
 #title {
     font-size: 48px;
-    margin: auto 10px;
+    margin: auto 40px;
     float: left;
 }
 
@@ -33,6 +33,7 @@ body {
 
 #nav-bar a {
     text-decoration: none;
+    color: #DDE2C6;
 }
 
 /* main cover */
@@ -40,6 +41,7 @@ body {
 #main-cover {
     width: 100%;
     overflow: hidden;
+    height: 600px;
 }
 
 #cover-image {
@@ -48,6 +50,7 @@ body {
     position: relative;
     background-position: center;
     background-image: url('../images/pexels-prasanth-inturi-1051838\ \(1\).jpg');
+    border-radius: 5%;
 }
 
 #cover-text {
@@ -57,7 +60,39 @@ body {
     width: 80px;
     transform: translateX(-70%);
     bottom: 160px;
-    background-color:#BBC5AA;
+    background-color:#756D54;
     border-radius: 10%;
     color: inherit;
+}
+
+/* about section */
+
+#about {
+    height: 600px;
+}
+
+#first-about {
+    text-align: center;
+    padding: 5px;
+    margin-top: 135px;
+    margin-left: 10%;
+    float: left;
+    width: 40%;
+    color: inherit;
+    background-color: #756D54;
+    border-radius: 10%;
+}
+
+#image-right {
+    position: relative;
+    float: center;
+    padding: 20px;
+    left: 55%;
+    top: 20px;
+    height: 250px;
+    width: 350px;
+    background-image: url('../images/pexels-pixabay-158465.jpg');
+    background-position: center;
+    background-size: 600px;
+    border-radius: 5%;
 }
