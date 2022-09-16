@@ -243,9 +243,29 @@ footer i {
 
 #newsletter {
     padding-top: 70px;
+    clear: both;
+}
+
+.newsletter-sign-up h2 {
+    margin-bottom: 20px;
 }
 
 .newsletter-sign-up {
-    text-align: center;
-    clear: both;
+    margin: auto;
+    color: #fff;
+    background-color: #756D54;
+    max-width: 400px;
+    left: 10%;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.text-input {
+    background: transparent;
+    color: #DDE2C6;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
