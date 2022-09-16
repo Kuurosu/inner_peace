@@ -14,8 +14,9 @@ body {
 
 #title {
     font-size: 48px;
-    margin: auto 10px;
+    margin-left: 10px;
     float: left;
+    overflow: hidden;
 }
 
 a {
@@ -26,14 +27,17 @@ a {
 /* nav links */
 
 #nav-bar {
-    margin: auto 10px;
+    margin-bottom: 10px;
+    display: block;
+    overflow: none;
+    float: right;
 }
 
 #nav-bar li {
     float: right;
     list-style-type: none;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 #nav-bar a {
@@ -233,4 +237,15 @@ footer li {
 
 footer i {
     font-size: 30px;
+}
+
+/* sign-up page */
+
+#newsletter {
+    padding-top: 70px;
+}
+
+.newsletter-sign-up {
+    text-align: center;
+    clear: both;
 }

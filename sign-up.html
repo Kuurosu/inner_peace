@@ -14,8 +14,8 @@
         <a href="index.html">
             <h1 id="title">Inner Peace</h1>
         </a>
-        <nav id="nav-bar">
-            <ul>
+        <nav>
+            <ul id="nav-bar">
                 <li>
                     <a href="sign-up.html">Sign Up</a>
                 </li>
@@ -35,10 +35,22 @@
         </nav>
     </header>
     <section id="newsletter">
-        <div id="form">
+        <form action="POST" action="#" class="newsletter-sign-up">
+            <h2>Want to be up-to-date on any new additions?</h2>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" class="text-input" required>
             
-        </div>
-
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" class="text-input" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" class="text-input" required>
+            
+            <label for="checkbox">I would like to receive future updates.</label>
+            <input type="checkbox" id="checkbox" name="newsletter-sign-up" value="agreed" required>
+            
+            <input class="join-button" type="submit" value="Sign me up!">
+        </form>
     </section>
     <footer>
         <ul id="socials">
