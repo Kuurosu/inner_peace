@@ -191,21 +191,21 @@ a {
     background-image: url('../images/pexels-elina-fairytale-3822621.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .intermediate {
     background-image: url('../images/pexels-elina-fairytale-3823076.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 140%;
+    background-size: cover;
 }
 
 .advanced {
     background-image: url('../images/pexels-elina-fairytale-3822906.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 140%;
+    background-size: cover;
 }
 
 /* footer */
