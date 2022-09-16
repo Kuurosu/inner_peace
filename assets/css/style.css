@@ -18,6 +18,11 @@ body {
     float: left;
 }
 
+a {
+    text-decoration: none;
+    color: #DDE2C6
+}
+
 /* nav links */
 
 #nav-bar {
@@ -163,7 +168,7 @@ body {
     height: 150px;
     overflow: hidden;
     border-radius: 5px;
-    color: #ffffff;
+    color: #DDE2C6;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -204,17 +209,21 @@ body {
 /* footer */
 
 #footer {
-    background-color: black;
+    background-color: #756D54;
     height: 100px;
 }
 
 #socials {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 35px;
 }
 
 #footer li {
     display: inline;
     padding-left: 60px;
     padding-right: 20px;
+}
+
+#footer i {
+    font-size: 30px;
 }
