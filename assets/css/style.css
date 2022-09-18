@@ -284,3 +284,14 @@ footer i {
     background-color: #fafafa;
     color: #756D54;
 }
+
+/* excercises */
+
+#exercises {
+    clear: left;
+}
+
+#box {
+    padding: 20px;
+    text-align: center;
+}
