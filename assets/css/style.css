@@ -273,5 +273,14 @@ footer i {
 .sign-up {
     padding: 5px;
     margin: 10px 0;
-    background-color: #DDE2C6;
+    background-color: #756D54;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #DDE2C6;
+    color: #fafafa;
+}
+
+.sign-up:hover {
+    background-color: #fafafa;
+    color: #756D54;
 }
