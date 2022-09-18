@@ -269,3 +269,8 @@ footer i {
     border: 1px solid #fafafa;
     border-radius: 2px;
 }
+
+.sign-up {
+    padding: 5px;
+    margin: 10px 0;
+}
