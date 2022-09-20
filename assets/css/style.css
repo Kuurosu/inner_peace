@@ -216,7 +216,7 @@ footer {
     width: 100%;
     bottom: 0;
     right: 0;
-    position:fixed;
+    position: fixed;
     z-index: 2;
 }
 
@@ -289,26 +289,40 @@ footer i {
 .introduction {
     clear: both;
     text-align: center;
-    padding: 40px;
+    padding: 20px;
 }
 
 #exercises {
-    clear: left;
+    clear: both;
+    padding-bottom: 40px;
 }
 
 .box {
     padding: 20px;
-    padding-top: 50px;
-    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .info {
-    float: left;
+    width: 300px;
+}
+
+.info > h3 {
+    padding-left: 30px;
+    padding-top: 10%;
     text-align: center;
-    width: 50%;
-    padding-left: 50px;
 }
 
 .img {
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.skill-image {
+    height: 450px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 15px;
 }
