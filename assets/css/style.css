@@ -267,13 +267,53 @@ footer i {
     border-radius: 15px;
 }
 
+/* For smaller screens 1200px wide and height */
+
 @media screen and (max-width: 1200px) {
+    
     #main-cover {
         clear: both;
     }
     
     .box {
         width: 90%;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skill-image {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        size: cover;
+    }
+
+    .info {
+        display: block;
+        width: 100%;
+        padding: auto;
+    }
+
+    #skill-title h2{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #nav-bar  li{
+        /* display: inline-block; */
+        margin: 0;
+        width: 22rem;
+    }
+    
+    #nav-bar ul {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .box {
+        width: 80%;
         display: inline-block;
         justify-content: center;
         align-items: center;
