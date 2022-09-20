@@ -274,20 +274,41 @@ footer i {
     border-style: solid;
     border-color: #DDE2C6;
     color: #fafafa;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .sign-up:hover {
     background-color: #fafafa;
     color: #756D54;
+    border-style: solid;
+    border-color: #756D54;
 }
 
 /* excercises */
+
+.introduction {
+    clear: both;
+    text-align: center;
+    padding: 40px;
+}
 
 #exercises {
     clear: left;
 }
 
-#box {
+.box {
     padding: 20px;
+    padding-top: 50px;
     text-align: center;
+}
+
+.info {
+    float: left;
+    text-align: center;
+    width: 50%;
+    padding-left: 50px;
+}
+
+.img {
+    padding-right: 50px;
 }
