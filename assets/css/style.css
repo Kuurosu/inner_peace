@@ -302,14 +302,16 @@ footer i {
 
 @media screen and (max-width: 900px) {
     #nav-bar  li{
-        /* display: inline-block; */
+        display: inline-block;
         margin: 0;
         width: 22rem;
+        clear: both;
     }
     
     #nav-bar ul {
-        display: flex;
+        display: inline;
         flex-direction: column-reverse;
+        width:auto;
     }
     
     .box {
@@ -330,12 +332,5 @@ footer i {
         display: block;
         width: 100%;
         padding: auto;
-    }
-
-    footer i {
-        display: inline;
-        font-size: 28px;
-        margin: -8%;
-        padding-right: 10px;
     }
 }
