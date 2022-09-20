@@ -97,7 +97,7 @@ a {
     padding: 80px;
 }
 
-#level{
+.level{
     display:inline-block;
     background-color: black;
     margin-left: 5%;
@@ -112,34 +112,34 @@ a {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#level h3 {
+.level h3 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.beginner h3 {
+#beginner h3 {
     padding-bottom: 20px;
 }
 
-.intermediate h3 {
+#intermediate h3 {
     padding-bottom: 10px
 }
 
-.beginner {
+#beginner {
     background-image: url('../images/pexels-elina-fairytale-3822621.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.intermediate {
+#intermediate {
     background-image: url('../images/pexels-elina-fairytale-3823076.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.advanced {
+#advanced {
     background-image: url('../images/pexels-elina-fairytale-3822906.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -289,16 +289,25 @@ footer i {
         size: cover;
     }
 
+    .img {
+        display: block;
+        width: 90%;
+        padding-left: 10%;
+    }
+
     .info {
         display: block;
         width: 100%;
         padding: auto;
+        padding-left: 32px;
     }
 
     #skill-title h2{
         font-size: 32px;
     }
 }
+
+/* For smaller screens 900px wide and height */
 
 @media screen and (max-width: 900px) {
     #nav-bar  li{
@@ -309,7 +318,7 @@ footer i {
     }
     
     #nav-bar ul {
-        display: inline;
+        display: flex;
         flex-direction: column-reverse;
         width:auto;
     }
@@ -332,5 +341,33 @@ footer i {
         display: block;
         width: 100%;
         padding: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+    .level {
+        display: inline-block;
+        background-color: black;
+        margin-left: 5%;
+        margin-right: 2%;
+        margin-bottom: 10%;
+        text-align: center;
+        width: 25%;
+        height: 150px;
+        overflow: hidden;
+        border-radius: 5px;
+        color: #DDE2C6;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        font-size: 12px;
+    }
+
+    footer {
+        height: 40px;
+    }
+
+    footer i {
+        font-size: 14px;
+        padding: 0;
     }
 }
