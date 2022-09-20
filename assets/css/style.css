@@ -331,4 +331,11 @@ footer i {
         width: 100%;
         padding: auto;
     }
+
+    footer i {
+        display: inline;
+        font-size: 28px;
+        margin: -8%;
+        padding-right: 10px;
+    }
 }
