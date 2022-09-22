@@ -29,7 +29,7 @@ a {
 #nav-bar {
     margin-bottom: 10px;
     display: block;
-    overflow: none;
+    overflow: auto;
     float: right;
 }
 
@@ -291,7 +291,7 @@ footer i {
         display: flex;
         width: 90%;
         margin: auto;
-        size: cover;
+        resize: cover;
     }
 
     .img {
@@ -303,7 +303,6 @@ footer i {
     .info {
         display: block;
         width: 100%;
-        padding: auto;
         padding-left: 32px;
     }
 
@@ -339,13 +338,12 @@ footer i {
         display: flex;
         width: 90%;
         margin: auto;
-        size: cover;
+        resize: cover;
     }
 
     .info {
         display: block;
         width: 100%;
-        padding: auto;
     }
 
     footer {
