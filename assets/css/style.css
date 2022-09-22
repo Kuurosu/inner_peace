@@ -45,6 +45,11 @@ a {
     color: #DDE2C6;
 }
 
+#nav-bar a:hover {
+    color: #fafafa;
+    border-bottom: 1px solid #fafafa;
+}
+
 /* main cover */
 
 #main-cover {
