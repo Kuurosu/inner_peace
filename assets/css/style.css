@@ -362,6 +362,39 @@ footer i {
         font-size: 12px;
     }
 
+    #nav-bar ul {
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+    }
+
+    #nav-bar li {
+        display: inline-block;
+        margin: 0;
+        width: 22em;
+        clear: both;
+    }
+
+    .box {
+        padding-left: 10px;
+    }
+
+    .info {
+        margin-left: -20px;
+    }
+
+    .skill-image {
+        margin-left: 25px;
+    }
+
+    .newsletter-sign-up {
+        margin-bottom: 80px;
+    }
+
+    .sign-up {
+        float: right;
+    }
+
     footer {
         height: 40px;
     }
@@ -369,5 +402,6 @@ footer i {
     footer i {
         font-size: 14px;
         padding: 0;
+        margin-left: -10px;
     }
 }
