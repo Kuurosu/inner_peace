@@ -49,9 +49,19 @@ This website is aimed at users that want to view meditation techniques and yoga 
 
 - Deploying the page initially the img's weren't loading even though they were in the assets/images folder. I had linked using '/assets/images/...' and took a minute to realise the /assets/ was supposed to be assets/images. 
 
+### Validator Testing
+
 - I've used Nu HTML checker and have no errors after testing - https://8000-kuurosu-myfulltemplate-d71f970sp90.ws-eu60.gitpod.io/stream-one.html
 
 - I've used W3C CSS Validation Service to confirm no errors after multiple testing and finding bugs - https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkuurosu.github.io%2Finner_peace%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+
+### Accessibility
+
+![Lighthouse Score](media/lighthouse.png)
+
+- After using Lighthouse I can confirm that the accessbility for users are good.
+
+- Regarding performance, I need to efficiently encode the two images on the main page.
 
 ### Unfixed Bugs
 
