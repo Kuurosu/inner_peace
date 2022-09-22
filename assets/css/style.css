@@ -291,7 +291,7 @@ footer i {
         display: flex;
         width: 90%;
         margin: auto;
-        resize: cover;
+        object-fit: cover;
     }
 
     .img {
@@ -338,7 +338,7 @@ footer i {
         display: flex;
         width: 90%;
         margin: auto;
-        resize: cover;
+        object-fit: cover;
     }
 
     .info {
