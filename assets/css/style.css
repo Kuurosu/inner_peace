@@ -225,6 +225,7 @@ footer {
     bottom: 0;
     right: 0;
     position: fixed;
+    z-index: 2;
 }
 
 #socials {
@@ -335,42 +336,87 @@ footer i {
     object-fit: cover;
 }
 
-/* For smaller screens 1200px wide and height */
+/* For smaller screens 1024px wide and height */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
     
     #main-cover {
         clear: both;
     }
     
-    .box {
-        width: 90%;
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .skill-image {
+    .about-info {
         display: flex;
-        width: 90%;
+        flex-direction: row;
+        flex-wrap: wrap;
         margin: auto;
+        margin-bottom: 2rem;
         object-fit: cover;
+        gap: 2rem;
     }
 
-    .img {
-        display: block;
-        width: 90%;
-        padding-left: 10%;
+    .about-info p {
+        width: 80%;
     }
 
-    .info {
-        display: block;
-        width: 100%;
-        padding-left: 32px;
+    .about-image {
+        width: 70%;
+    }
+
+    #skill {
+        margin-bottom: 32vh;
     }
 
     #skill-title h2{
         font-size: 2rem;
+    }
+
+    .level {
+        margin: auto;
+        padding: 0;
+        display: flex;
+        width: 95%;
+        flex-direction: row;
+    }
+
+    #beginner {
+        z-index: 1;
+        margin-top: -17vh;
+        flex-flow: row;
+        width: 100vh;
+    }
+
+    #beginner p {
+        width: 50vh;
+        margin-top: 5vh;
+        margin-left: 8vh;
+        margin-right: 7vh;
+    }
+
+    #intermediate {
+        z-index: 1;
+        margin-top: -16vh;
+        margin-left: -38vh;
+        flex-flow: row;
+        width: 100vh;
+    }
+
+    #intermediate p {
+        margin-top: 2vh;
+        width: 50vh;
+        margin-right: 3vh;
+    }
+
+    #advanced {
+        z-index: 1;
+        margin-right: 8vh;
+        margin-top: -16vh;
+        flex-flow: row;
+        width: 100vh;
+    }
+
+    #advanced p {
+        margin-left: 2vh;
+        width: 80vh;
     }
 }
 
