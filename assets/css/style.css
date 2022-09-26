@@ -453,6 +453,10 @@ footer i {
         width: auto;
         padding-top: 2vh;
     }
+
+    #cover-text {
+        margin-left: 4vh;
+    }
     
     #skill {
         width: 100%;
