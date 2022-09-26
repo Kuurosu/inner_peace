@@ -51,7 +51,7 @@ This website is aimed at users that want to view meditation techniques and yoga 
 
 ### Validator Testing
 
-- I've used Nu HTML checker and have no errors after testing - https://8000-kuurosu-myfulltemplate-d71f970sp90.ws-eu60.gitpod.io/stream-one.html
+- I've used Nu HTML checker and have no errors after testing - https://validator.w3.org/nu/?doc=https%3A%2F%2Fkuurosu.github.io%2Finner_peace%2F
 
 - I've used W3C CSS Validation Service to confirm no errors after multiple testing and finding bugs - https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkuurosu.github.io%2Finner_peace%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
