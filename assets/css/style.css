@@ -365,7 +365,7 @@ footer i {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin: auto;
+        margin: 0;
         margin-bottom: 2rem;
         object-fit: cover;
         gap: 2rem;
@@ -373,6 +373,7 @@ footer i {
 
     .about-info p {
         width: 80%;
+        padding: 2.5vh;
     }
 
     .about-image {
@@ -421,12 +422,14 @@ footer i {
 @media screen and (max-width: 768px) {
 
     #title {
-        width: 100%;
+        width: 90%;
         text-align: center;
+        padding-top: 2vh;
+        padding-left: 5%;
     }
 
     #nav-bar {
-        padding-top: 7vh;
+        padding-top: 6vh;
     }
     
     #nav-bar  li{
@@ -438,14 +441,15 @@ footer i {
     }
     
     #nav-bar ul {
-        display: flex;
+        display: inline-flex;
         flex-direction: column-reverse;
-        width: auto;
+        width: 100%;
         text-align: center;
     }
 
     #cover-text {
-        margin-left: 4vh;
+        margin-left: 8vh;
+        padding: 2vh;
     }
     
     #skill {
@@ -467,10 +471,34 @@ footer i {
 
 @media screen and (max-width: 425px) {
 
+    body {
+        width: 100%;
+    }
+
+    #title {
+        padding-top: 2vh;
+    }
+
     #skill {
         width: 100%;
         height: 100%;
         padding-bottom: 5%;
+    }
+
+    #title {
+        width: 90%;
+    }
+
+    #nav-bar {
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #about-info {
+        width: 90%;
     }
 
     .level h3 {
@@ -489,6 +517,10 @@ footer i {
         float: right;
     }
 
+    #socials {
+        width: 100%;
+    }
+    
     footer {
         height: 40px;
     }
@@ -496,19 +528,21 @@ footer i {
     footer i {
         font-size: 0.875rem;
         padding: 0;
-        margin-left: -10px;
+        margin-left: -25px;
+        overflow: none;
     }
 }
 
 @media screen and (max-width: 320px) {
 
     #title {
-        padding: 0;
+        padding-top: 5%;
+        padding-left: 5%;
         margin: 0;
     }
 
     #nav-bar {
-        padding-top: 4.5vh;
+        padding-top: 1vh;
     }
 
     #skill {
