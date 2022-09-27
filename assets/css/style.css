@@ -144,59 +144,6 @@ a {
     font-size: 3rem;
 }
 
-#beginner {
-    position: absolute; 
-    left: 0;
-    padding: 0;
-    width: 25%;
-}
-
-#intermediate {
-    position: absolute;
-    margin-left: 5%;
-    margin-right: 2%;
-    left: 32.4%;
-    width: 24.8%;
-}
-
-#advanced {
-    position: absolute;
-    right: 0;
-    margin-right: 4.8%;
-    margin-left: 2%;
-    width: 24.8%;
-}
-
-#beginner h3 {
-    margin-top: 10px;
-}
-
-#beginner p {
-    padding-bottom: 30px;
-}
-
-#intermediate h3 {
-    margin-top: 10px;
-}
-
-#intermediate p {
-    padding-bottom: 15px;
-}
-
-#advanced h3 {
-    padding-top: 10px;
-}
-
-#advanced p {
-    padding: 10px;
-    margin-right: 25px;
-    padding-bottom: 20px;
-}
-
-#intermediate h3 {
-    padding-bottom: 5px;
-}
-
 #beginner-image {
     position: relative;
 }
@@ -255,6 +202,20 @@ a {
     filter: brightness(35%)
 }
 
+#advanced-image p {
+    padding-bottom: 10px;
+    width: 80%;
+}
+
+#intermediate-image p {
+    padding-bottom: 10px;
+    width: 80%;
+}
+
+#beginner-image p {
+    padding-bottom: 10px;
+}
+
 /* footer */
 
 footer {
@@ -310,6 +271,7 @@ footer i {
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
+    padding: 2px 6px;
 }
 
 .sign-up {
@@ -344,7 +306,6 @@ footer i {
 }
 
 .box {
-    padding: 20px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -375,11 +336,17 @@ footer i {
     object-fit: cover;
 }
 
+/* For screens 1440p wide and height */
+
 @media screen and (max-width: 1440px) {
     
     #advanced p {
         margin-top: -10px;
-    }   
+    }
+
+    .level h3 {
+        font-size: 2rem;
+    }
 }
 
 /* For smaller screens 1024px wide and height */
@@ -410,6 +377,7 @@ footer i {
 
     #skill {
         margin-bottom: 32vh;
+        width: 100%;
     }
 
     #skill-title h2{
@@ -424,51 +392,34 @@ footer i {
         flex-direction: row;
     }
 
-    #beginner {
-        z-index: 1;
-        margin-top: -15%;
-        flex-flow: row;
-        width: 100%;
+    .level h3 {
+        font-size: 3rem;
     }
 
-    #beginner h3 p {
-        width: 50vh;
-        margin-top: 5vh;
-        margin-left: 8vh;
-        margin-right: 7vh;
+    .box {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: auto;
+        object-fit: cover;
+        gap: 1rem;
+        padding-top: 1rem;
     }
 
-    #intermediate {
-        z-index: 1;
-        margin-top: -15%;
-        margin-left: -38vh;
-        flex-flow: row;
-        width: 100%;
-    }
-
-    #intermediate p {
-        margin-top: 2vh;
-        width: 50vh;
-        margin-right: 3vh;
-    }
-
-    #advanced {
-        z-index: 1;
-        margin-right: 8vh;
-        margin-top: -16vh;
-        flex-flow: row;
-        width: 100vh;
-    }
-
-    #advanced p {
-        margin-left: 2vh;
-        width: 80vh;
+    .info h3 {
+        padding: 2vh;
     }
 }
 
 /* For smaller screens 768px wide and height */
 
 @media screen and (max-width: 768px) {
+
+    #title {
+        width: 100%;
+        text-align: center;
+    }
+
     #nav-bar {
         padding-top: 7vh;
     }
@@ -476,16 +427,16 @@ footer i {
     #nav-bar  li{
         display: inline-block;
         margin: 0;
-        width: 22vh;
+        width: auto;
         padding-left: 4vh;
         padding-right: 2vh;
     }
     
     #nav-bar ul {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column-reverse;
         width: auto;
-        padding-top: 2vh;
+        text-align: center;
     }
 
     #cover-text {
@@ -495,50 +446,6 @@ footer i {
     #skill {
         width: 100%;
         margin-bottom: 28vh;
-    }
-
-    #beginner {
-        z-index: 1;
-        margin-top: -15vh;
-        flex-flow: row;
-        width: 100%;
-    }
-
-    #beginner p {
-        width: 50vh;
-        margin-top: 5vh;
-        margin-left: 8vh;
-        margin-right: 8vh;
-    }
-
-    #intermediate {
-        z-index: 1;
-        margin-top: -15vh;
-        margin-left: -23vh;
-        flex-flow: row;
-        width: 100%;
-    }
-
-    #intermediate p {
-        margin-top: 2vh;
-        width: 50vh;
-        margin-right: 7vh;
-        margin-left: 7vh;
-    }
-
-    #advanced {
-        z-index: 1;
-        margin-right: -1vh;
-        margin-top: -15vh;
-        flex-flow: row;
-        width: 100%;
-    }
-
-    #advanced p {
-        margin-left: 4vh;
-        width: 55vh;
-        margin-top: 1vh;
-        padding-right: 4vh;
     }
 
     footer {
@@ -554,86 +461,18 @@ footer i {
 }
 
 @media screen and (max-width: 425px) {
-    
-    .level {
-        display: inline-block;
-        background-color: black;
-        margin-left: 5%;
-        margin-right: 2%;
-        margin-bottom: 10%;
-        text-align: center;
-        width: 25%;
-        height: 150px;
-        overflow: hidden;
-        border-radius: 5px;
-        color: #DDE2C6;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-        font-size: 1rem;
-    }
-
-    #nav-bar {
-        display: inline-flex;
-    }
-
-    #nav-bar ul {
-        display: flex;
-        flex-direction: column-reverse;
-        width: auto;
-    }
-
-    #nav-bar li {
-        display: inline-block;
-        margin: 0;
-        width: 22em;
-        clear: both;
-    }
 
     #skill {
         width: 100%;
         margin-bottom: 28vh;
     }
 
-    #beginner {
-        z-index: 1;
-        margin-top: -15vh;
-        flex-flow: row;
-        width: 100%;
+    .level h3 {
+        font-size: 1.8rem;
     }
 
-    #beginner p {
-        width: 50vh;
-        margin-top: 5vh;
-        margin-left: 8vh;
-        margin-right: 8vh;
-    }
-
-    #intermediate {
-        z-index: 1;
-        margin-top: -15vh;
-        margin-left: -23vh;
-        flex-flow: row;
-        width: 100%;
-    }
-
-    #intermediate p {
-        margin-top: 2vh;
-        width: 50vh;
-        margin-right: 7vh;
-    }
-
-    #advanced {
-        z-index: 1;
-        margin-right: -1vh;
-        margin-top: -15vh;
-        flex-flow: row;
-        width: 100%;
-    }
-
-    #advanced p {
-        margin-left: 4vh;
-        width: 55vh;
-        margin-top: 1vh;
-        padding-right: 4vh;
+    .level p {
+        font-size: 1rem;
     }
 
     .newsletter-sign-up {
@@ -657,17 +496,9 @@ footer i {
 
 @media screen and (max-width: 320px) {
 
-    #nav-bar ul {
-        display: flex;
-        flex-direction: column-reverse;
-        width: auto;
-    }
-
-    #nav-bar li {
-        display: inline-block;
-        margin: 0;
-        width: 18em;
-        clear: both;
+    #nav-bar {
+        height: 100%;
+        clear:both;
     }
 
     #skill {
@@ -675,7 +506,7 @@ footer i {
     }
 
     .level {
-        font-size: 0.625rem;
+        font-size: 1rem;
     }
 
     footer {
