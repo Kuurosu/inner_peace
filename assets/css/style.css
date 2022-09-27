@@ -146,7 +146,7 @@ a {
 
 #beginner-image {
     position: relative;
-    top: 5px;
+    top: 10px;
 }
 
 #beginner-image::before {
@@ -208,12 +208,14 @@ a {
 
 #advanced-image p {
     padding-bottom: 10px;
-    width: 80%;
+    width: 85%;
+    padding-left: 45px;
 }
 
 #intermediate-image p {
     padding-bottom: 10px;
     width: 80%;
+    padding-left: 45px;
 }
 
 #beginner-image p {
@@ -380,6 +382,20 @@ footer i {
         width: 85%;
     }
 
+    .img {
+        padding: 0;
+        margin: 0;
+    }
+
+    .info h3 {
+        margin-left: 0;
+        margin-right: 5%;
+    }
+
+    .bottom-padding {
+        margin-bottom: 10%;
+    }
+
     #skill {
         height: 100%;
         margin-bottom: 10%;
@@ -507,6 +523,10 @@ footer i {
 
     .level p {
         font-size: 1rem;
+    }
+
+    #advanced-image p {
+        padding-left: 25px;
     }
 
     .newsletter-sign-up {
