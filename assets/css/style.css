@@ -29,7 +29,6 @@ a {
 #nav-bar {
     margin-bottom: 10px;
     display: block;
-    overflow: none;
 }
 
 #nav-bar li {
@@ -319,7 +318,7 @@ footer i {
 }
 
 .info {
-    width: 300px;
+    width: 350px;
 }
 
 .info > h3, .info > p {
@@ -385,6 +384,11 @@ footer i {
     .img {
         padding: 0;
         margin: 0;
+        width: 90%;
+    }
+
+    .info {
+        width: 80%;
     }
 
     .info h3 {
@@ -430,6 +434,7 @@ footer i {
 
     .info h3 {
         padding: 2vh;
+        margin: 0;
     }
 }
 
@@ -549,7 +554,6 @@ footer i {
         font-size: 0.875rem;
         padding: 0;
         margin-left: -25px;
-        overflow: none;
     }
 }
 
