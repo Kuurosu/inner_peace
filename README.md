@@ -10,16 +10,16 @@ This website is aimed at users that want to view meditation techniques and yoga 
 
 ![Nav Bar](media/nav-bar.png)
 
-- I went with a simple nav bar that had each page available from the start so you can get straight to where you want to go. This bar is available on every page in the same order to allow ease of access to where you need to be. When switchin to a tablet or mobile view the bar becomes stacked to still allow users to navigate to where they'd like to go. 
+- I went with a simple nav bar that had each page available from the start so you can get straight to where you want to go. This bar is available on every page in the same order to allow ease of access to where you need to be. When switchin to a tablet or mobile view the bar becomes stacked to still allow users to navigate to where they'd like to go. I also added resizing so when it's on mobile/tablet size the menu stacks and is in the middle of the screen.   
 
 ![Main Page](media/main-page.png)
 
-- I wanted the main picture to have the image of a silhouette of a person and kept her in the middle of the screen during the responsive tests and have the motto in the middle of her. 
-- The image and descriptions below give an idea of why and how you can be performing yoga and meditation to really emphasize to the user why they would want to come to this site for assistance no matter the experience level.
+- I wanted the main picture to have the image of a silhouette of a person and kept her in the middle of the screen during the responsive tests and have the motto in the middle of them. 
+- The image and descriptions below give an idea of why and how you can be performing yoga and meditation to really emphasize to the user why they would want to come to this site for assistance no matter the experience level. I have added padding to make it easier to read and see.
 
 ![Experience Level Links](media/experience-level.png)
 
-- Here I have presented an easy way for users progressing through the website to go straight to their level without having to go back to the top of the page. They can click the entire box rather than just the text itself. I also gave the font a black outline to make it easier to read as the backgrounds had many colours to them. They are all responsive and the text gets smaller to accomodate the smaller size on tablet/mobile.
+- Here I have presented an easy way for users progressing through the website to go straight to their level without having to go back to the top of the page. I also gave the font a black outline and used the brightness filter to darken the background to make it easier to read.
 
 ![Footer](media/footer.png)
 
@@ -47,11 +47,13 @@ This website is aimed at users that want to view meditation techniques and yoga 
 
 - The nav bar was also reversing the order unless changed to flex and column-reverse. I realised I had also changed to id so when looking at the other pages it wasn't applying the changes and took a while to figure out a simple solution. 
 
-- Deploying the page initially the img's weren't loading even though they were in the assets/images folder. I had linked using '/assets/images/...' and took a minute to realise the /assets/ was supposed to be assets/images. 
+- Deploying the page initially the img's weren't loading even though they were in the assets/images folder. I had linked using '/assets/images/...' and took a minute to realise the /assets/ was supposed to be assets/images.
+
+- Getting the "Skills" background to have a lowered brightness initially made the text as well dark. I managed to get around this by using the ::before psuedo element.
 
 ### Validator Testing
 
-- I've used Nu HTML checker and have no errors after testing - https://validator.w3.org/nu/?doc=https%3A%2F%2Fkuurosu.github.io%2Finner_peace%2F
+- I've used Nu HTML checker and have no errors after testing. Just one warning which was to consider using a header in my about section. But as it didn't require one I have chosen to omit that. - https://validator.w3.org/nu/?doc=https%3A%2F%2Fkuurosu.github.io%2Finner_peace%2F
 
 - I've used W3C CSS Validation Service to confirm no errors after multiple testing and finding bugs - https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkuurosu.github.io%2Finner_peace%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
@@ -61,13 +63,9 @@ This website is aimed at users that want to view meditation techniques and yoga 
 
 - After using Lighthouse I can confirm that the accessbility for users are good.
 
-- Regarding performance, I need to efficiently encode the two images on the main page.
-
 ### Unfixed Bugs
 
 - I can't get the footer to stretch across the entire page unless it is fixed. Ideally I'd like to come back and fix the issue which I suspect is because of the layout I have done with the rest of index.html. 
-
-- I'd like to have the content boxes more center. At the moment I have to adjust the positon using padding and margin to keep it center when viewed on mobile/tablet.
 
 ## Deployment
 
