@@ -90,7 +90,7 @@ To add updates from your local IDE to the repository you can use Git in the term
 1. Open the Terminal.
 2. Type ```git add (insert file name here e.g. index.html)``` and press enter (You can also use ```git add .``` to add all files that have been modified).
 3. Type ```git commit -m "(insert a meaningful commit message here)"``` and press enter.
-4. When you're ready to push the commits, you can do so by typing ```git push``` and press eenter.
+4. When you're ready to push the commits, you can do so by typing ```git push``` and press enter.
 
 ## Testing
 
