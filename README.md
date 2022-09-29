@@ -35,21 +35,7 @@ This website is aimed at users that want to view meditation techniques and yoga 
 
 ### Testing
 
-- During testing there were lots of bugs that had to be completely overhauled. I have managed to fix almost all of them. 
-
-- The images on the homescreen kept getting stuck outside the browser window or kept overlapping with the text boxes. Was due to using background-image: url(''). Changed it to an img tag. Also the initial id I was using for the div id="exercises" was a class and causing more issues down the road. Especially when starting on the mobile view. When I was working on the experience pages, I made a id which worked a lot better. When applied to the homepage it worked a lot nicer. 
-
-- Working on the skill section at the bottom. Initially the images would have black lines where the aspect ratio was getting too far. Found out there is a "resize: cover" which scales the image as the page is resized. It still isn't as perfect as I'd like, as some images are panned to the wrong place I'd like them to be (Like in the experience pages in some views you can only see the top of the picture when ideally I'd like to have the bottom).
-
-- When introducing mobile and tablet sizes, the nav bar is initially in the top right, but with resizing, it becomes vertical. Making it horizontal again stretches it across two lines. For now I'm fine with this as it isn't hideous. But for future reference I'd write the rest of the page more "correct" to avoid this issue.
-
-- The footer bar when resized would stack up unless the font size for i would be reduced and padding/margin edited. 
-
-- The nav bar was also reversing the order unless changed to flex and column-reverse. I realised I had also changed to id so when looking at the other pages it wasn't applying the changes and took a while to figure out a simple solution. 
-
-- Deploying the page initially the img's weren't loading even though they were in the assets/images folder. I had linked using '/assets/images/...' and took a minute to realise the /assets/ was supposed to be assets/images.
-
-- Getting the "Skills" background to have a lowered brightness initially made the text as well dark. I managed to get around this by using the ::before psuedo element.
+- Nav bar links
 
 ### Validator Testing
 
@@ -72,6 +58,10 @@ This website is aimed at users that want to view meditation techniques and yoga 
 After I had the initial site and styling applied for desktop. I deployed the page to GitHub pages. The live version can be found here - https://kuurosu.github.io/inner_peace/
 
 ## Credits
+
+### Acknowledgements
+
+- I'd like to thank my mentor Brian Macharia who assisted me with code reviews and giving ideas on more appropriate layouts. 
 
 ### Content
 
