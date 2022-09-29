@@ -119,7 +119,7 @@ Any issues or troubleshooting with GitHub CLI can be found [here](https://cli.gi
 
 ### Unfixed Bugs
 
-- I can't get the footer to stretch across the entire page unless it is fixed. Ideally I'd like to come back and fix the issue which I suspect is because of the layout I have done with the rest of index.html. 
+- I believe the 404 page does not show up as this has been deployed using GitHub pages. So the .htaccess file does not work as intended. You can navigate to the 404 page manually by going to [this link](https://kuurosu.github.io/inner_peace/404.html).
 
 ## Credits
 
