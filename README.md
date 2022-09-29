@@ -83,6 +83,15 @@ gh repo clone Kuurosu/inner_peace
 
 Any issues or troubleshooting with GitHub CLI can be found [here](https://cli.github.com/manual/).
 
+### Using Git to push changes to your repository 
+
+To add updates from your local IDE to the repository you can use Git in the terminal to assist you with this:
+
+1. Open the Terminal.
+2. Type ```git add (insert file name here e.g. index.html)``` and press enter (You can also use ```git add .``` to add all files that have been modified).
+3. Type ```git commit -m "(insert a meaningful commit message here)"``` and press enter.
+4. When you're ready to push the commits, you can do so by typing ```git push``` and press eenter.
+
 ## Testing
 
 - Nav bar links take you to the expected page. Working as intended.
