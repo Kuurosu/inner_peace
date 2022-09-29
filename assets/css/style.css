@@ -16,7 +16,7 @@ body {
 }
 
 #title {
-    font-size: 48px;
+    font-size: 3rem;
     margin-left: 10px;
     float: left;
     overflow: hidden;
@@ -344,6 +344,24 @@ footer i {
     height: 450px;
     width: 400px;
     object-fit: cover;
+}
+
+/* Error page */
+
+#error {
+    padding-top: 10%;
+    width: 100%;
+    text-align: center;
+    left: auto;
+    right: auto;
+}
+
+#error h2 {
+    padding-bottom: 5%;
+}
+
+#error a {
+    text-decoration: underline;
 }
 
 /* For screens 1440p wide and height */
