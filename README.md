@@ -75,7 +75,7 @@ If you choose to use a local IDE such as VS Code etc. you can follow the steps b
 7. Click GitHub CLI tab.
 8. Copy the link.
 9. In your preferred IDE, create or navigate to a directory you would like to clone the repository to.
-11. Open the Terminal and paste the link from step 8. 
+11. Open the IDE Terminal and paste the link from step 8. 
 ```
 gh repo clone Kuurosu/inner_peace
 ```
