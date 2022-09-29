@@ -1,5 +1,9 @@
 # Inner Peace
 
+##### Link to deployed page - https://kuurosu.github.io/inner_peace/
+
+### Description
+
 This website is aimed at users that want to view meditation techniques and yoga positions that would be relevant to their skill level. There is a page for beginners, intermediates and advanced experience, as well as a sign up page for a newsletter.
 
 ### Features
@@ -33,9 +37,73 @@ This website is aimed at users that want to view meditation techniques and yoga 
 
 - The Sign-Up page is used for the user to stay engaged with updates on the page which would include new exercises and additions they may want to see in the future. The sign-up form includes their name and email address which are all required. There is also a checkbox to agree to receiving emails from the website which is also a required box. 
 
-### Testing
+## Deployment
 
-- Nav bar links
+This website was developed using [VS Studio Code](https://code.visualstudio.com). It was added, committed and pushed using git to a GitHub repository.
+
+To deploy the project to GitHub Pages from [the repository](https://github.com/Kuurosu/inner_peace) you can do the following:
+
+1. Log into [GitHub](https://github.com).
+2. Select the repository that you would like to deploy.
+3. Click the Settings tab.
+4. Find Pages in the left tab.
+5. Make sure it's selected on "Deploy from branch".
+6. Under Branch, Change "None" to main and Save.
+7. It may take a few minutes for GitHub to deploy the page. Once completed there will be a link to the top that will bring you to your deployed page. 
+
+### How to run the project locally
+
+If you would like to clone this repository you will need the following: 
+
+1. A [Github Account](https://github.com/).
+2. Either [Chrome](https://www.google.com/chrome/) or [Firefox](https://www.mozilla.org/en-GB/firefox/new/?redirect_source=firefox-com) as your browser.
+3. Install the Gitpod extension for your preferred browser: [Chrome](https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki) or [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/gitpod/).
+4. Restart your browser.
+5. Log into [Gitpod](https://gitpod.io/login/).
+6. Open the [repository](https://github.com/Kuurosu/inner_peace).
+7. There will now be a Gitpod button at the top of the repository. 
+8. Click it and it will open a new tab using Gitpod and create a workstation cloned from the original repository where you can edit it locally.
+
+If you choose to use a local IDE such as VS Code etc. you can follow the steps below:
+
+1. Navigate to [GitHub CLI](https://cli.github.com).
+2. On Mac, copy ```brew install gh``` On Windows, copy ```winget install --id GitHub.cli``` (You will need [HomeBrew](https://brew.sh) previously installed for Mac, or [WinGet](https://github.com/microsoft/winget-cli) previously installed for Windows.)
+3. Paste the OS appropriate code into Terminal (Mac) or CMD prompt (Windows).
+4. This will take a few minutes to install the appropriate GitHub CLI onto your PC.
+5. Once completed, open the [repository](https://github.com/Kuurosu/inner_peace).
+6. Click the green "Code" icon.
+7. Click GitHub CLI tab.
+8. Copy the link.
+9. In your preferred IDE, create or navigate to a directory you would like to clone the repository to.
+11. Open the Terminal and paste the link from step 8. 
+```
+gh repo clone Kuurosu/inner_peace
+```
+12. Press enter and it should clone the repository for you to work with locally. 
+
+Any issues or troubleshooting with GitHub CLI can be found [here](https://cli.github.com/manual/).
+
+## Testing
+
+- Nav bar links take you to the expected page. Working as intended.
+
+- Skill boxes on homepage take you to the relevant skill level page. Working as intended.
+
+- Social media links in footer expected to take you to the relevant social media page in a new browser tab. Working as intended.
+
+- Newsletter sign up requires a name, surname, email address and tick box to be all filled and ticked to allow submission. Working as intended.
+
+- I have tested the website on Chrome, Firefox and Safari and it loads and layout looks the same on all.
+
+- Content is centered on all screen sizes from iPhone SE/5 up to an iMac 5k.
+
+### User Stories
+
+- A beginner user wanting to find an introduction to yoga and meditation. They can find information and a beginner program. 
+
+- An experienced user that needs an idea for more exercises to add to their routine. They can find the intermediate or advanced page for them.
+
+- A user who might know what they're doing and would just like to keep up with updates can use the sign up for the newsletter.
 
 ### Validator Testing
 
@@ -52,10 +120,6 @@ This website is aimed at users that want to view meditation techniques and yoga 
 ### Unfixed Bugs
 
 - I can't get the footer to stretch across the entire page unless it is fixed. Ideally I'd like to come back and fix the issue which I suspect is because of the layout I have done with the rest of index.html. 
-
-## Deployment
-
-After I had the initial site and styling applied for desktop. I deployed the page to GitHub pages. The live version can be found here - https://kuurosu.github.io/inner_peace/
 
 ## Credits
 
